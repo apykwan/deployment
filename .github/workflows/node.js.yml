@@ -36,7 +36,7 @@ jobs:
       env:
         SSH_PRIVATE_KEY: ${{ secrets.MRWU }}
         ARGS: "-rltgoDzvO --delete"
-        SOURCE: "/"
+        SOURCE: "/client"
         REMOTE_HOST: "137.184.47.111"
         REMOTE_USER: "root"
         TARGET: “/home/frontend/“
